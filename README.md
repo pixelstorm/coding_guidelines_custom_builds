@@ -22,6 +22,10 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Advanced Custom Fields Pro (we have a premium license)
 1. updraft
 1. Wordfence 
+1. Knowlege base by press apps (premium) 
+1. Enhanced media library (premium) 
+1. Wp all import (premium) 
+1. Query monitor (premium) 
 1. Gravity Forms   (we have a premium license)
 1. Tablepress 
 1. Yoast
