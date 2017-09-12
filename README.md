@@ -11,9 +11,10 @@
  theme 
   | dev  
     |- grunt (exclude from commits) 
+    |- node_modules (exclude from commits) 
     |- sass 
-	 |- bourbon (exclude from commits) 
-	 |- neat  (exclude from commits)
+	 |- bourbon 
+	 |- neat  
 	 |- _custom.scss (main stylesheet)
 	 |- _mixins.scss 
   |- components 
