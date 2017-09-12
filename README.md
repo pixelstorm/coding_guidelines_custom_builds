@@ -1,64 +1,36 @@
 # Best Practices and Coding Standards
  
 1. No “cowboy coding”. All code and design changes are carried out on a testing server first before implementing on a live website.
+1. develop locally 
 1. All code is to be modular and deployed to github for reuse. 
 1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
  
  
-1. Use the client’s staging server
-2. If they do not have a staging server – clone client’s website on KRMD WP Engine account as a transferrable install
-3. Site too big to clone? – Use KRMD WP Engine account to create a transferable install then just drop in client’s theme and plugins to test
+1. Deploy to  the client’s staging server  
+2. If they do not have a staging server – use mysite.preparetolaunch.com.au 
  
 ## Themes – List of Approved Themes
 All website themes should be child themes of the parent theme (if not using _s)
- 
-Change list to your approved themes
- 
-WooThemes – Canvas http://www.woothemes.com/products/canvas/
- 
-_s Underscores http://underscores.me/
- 
-Genesis – http://studiopress.com/
- 
+Fortuna
+Dont use Genesis
  
 ## Plugins – List of Approved Plugins
 Please seek approval when adding a plugin that is not part of this list. (*we will add and grow this list.)
  
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
-Insert your approved plugins (list is just an example)
- 
-1.         	Ad Code Manager https://wordpress.org/plugins/ad-code-manager/
-1.            	Advanced Custom Fields https://wordpress.org/plugins/advanced-custom-fields/
-1.            	Akismet http://wordpress.org/plugins/akismet/
-1.            	Backup Buddy (premium plugin)
-1.            	Co-Authors Plus  https://wordpress.org/plugins/co-authors-plus/
-1.            	Easy Custom Fields https://wordpress.org/plugins/easy-custom-fields/
-1.            	Edit Flow  https://wordpress.org/plugins/edit-flow/
-1.            	Facebook  http://wordpress.org/plugins/facebook/
-1.            	Frontend Uploader  http://wordpress.org/plugins/frontend-uploader/
-1.            	Gravity Forms   (premium plugin)
-1.            	Image Widget  http://wordpress.org/plugins/image-widget/
-1.            	Lazy Load http://wordpress.org/plugins/lazy-load/
-1.            	Link Manager  http://wordpress.org/plugins/link-manager/
-1.            	MCE Table Buttons  http://wordpress.org/plugins/mce-table-buttons/
-1.            	Multiple Featured Images  http://wordpress.org/plugins/multiple-featured-images/
-1.            	Page Links To  http://wordpress.org/plugins/page-links-to/
-1.            	Revolution Slider
-1.            	Royal Slider
-1.            	Safe Redirect Manager  http://wordpress.org/plugins/safe-redirect-manager/
-1.            	Simple Footnotes  http://wordpress.org/plugins/simple-footnotes/
-1.            	Simple Page Ordering  http://wordpress.org/plugins/simple-page-ordering/
-1.            	Twitter Widget Pro http://wordpress.org/plugins/twitter-widget-pro/ 
-1.            	WP Google Analytics  http://wordpress.org/plugins/wp-google-analytics/
-1.            	WP Help  http://wordpress.org/plugins/wp-help/
-1.            	WordPress SEO http://wordpress.org/plugins/wordpress-seo/
-1.            	WooCommerce http://wordpress.org/plugins/woocommerce/
-1.            	Video User Manuals (premium plugin)
-1.            	Zoninator http://wordpress.org/plugins/zoninator/
+1. Advanced Custom Fields Pro (we have a premium license)
+1. updraft
+1. Wordfence 
+1. Gravity Forms   (we have a premium license)
+1. Tablepress 
+1. Yoast
+1. woocommerce
  
  
 # For Custom Coding
+1.   Prefix all functions with pxs_.
+
 We adhere to WordPress best practices broadly defined here:
 
 http://codex.wordpress.org/Working_with_WordPress  http://codex.wordpress.org/Developer_Documentation  
