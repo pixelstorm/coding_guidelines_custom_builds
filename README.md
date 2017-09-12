@@ -1,5 +1,6 @@
 # Best Practices and Coding Standards
  
+1. No inline code in the wordpress text editor of custom fields, no code is to be exposed to the client in the backend. 
 1. No “cowboy coding”. All code and design changes are carried out on a testing server first before implementing on a live website.
 1. develop locally 
 1. All code is to be modular and deployed to github for reuse. 
