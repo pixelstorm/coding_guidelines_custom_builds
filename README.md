@@ -8,19 +8,18 @@
  
 ### Filestructure
  theme 
-  - dev  
-    - grunt (exclude from commits) 
-    - sass 
-	 - bourbon (exclude from commits) 
-	 - neat  (exclude from commits)
-	 - _custom.scss (main stylesheet)
-	 - _mixins.scss 
-  - components 
-    - custom_component (commit to github) 
-	 - php, scss and js files for the component 
-    - custom_component 
-    - custom_component 
-    
+  | dev  
+    |- grunt (exclude from commits) 
+    |- sass 
+	 |- bourbon (exclude from commits) 
+	 |- neat  (exclude from commits)
+	 |- _custom.scss (main stylesheet)
+	 |- _mixins.scss 
+  |- components 
+    |- custom_component (commit to github) 
+	 |- php, scss and js files for the component 
+    |- custom_component 
+    |- custom_component 
 
  
 1. Deploy to  the client’s staging server  
