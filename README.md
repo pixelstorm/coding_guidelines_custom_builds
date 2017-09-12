@@ -7,6 +7,7 @@
 1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
  
 ### Filestructure
+```
  theme 
   | dev  
     |- grunt (exclude from commits) 
@@ -20,7 +21,7 @@
 	 |- php, scss and js files for the component 
     |- custom_component 
     |- custom_component 
-
+```
  
 1. Deploy to  the client’s staging server  
 2. If they do not have a staging server – use mysite.preparetolaunch.com.au 
