@@ -10,7 +10,7 @@
 2. If they do not have a staging server – use mysite.preparetolaunch.com.au 
  
 ### Filestructure
- Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory
+ Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory. And we use [load-grunt-config](https://github.com/firstandthird/load-grunt-config) to seaprate the grunt file into individual files
 ```
  theme (child or custom theme) 
   | dev  
