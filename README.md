@@ -6,6 +6,8 @@
 1. We use bourbon and neat not bootstrap  
 1. All code is to be modular and deployed to github for reuse. 
 1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
+1. Deploy to the client’s staging server  
+2. If they do not have a staging server – use mysite.preparetolaunch.com.au 
  
 ### Filestructure
  Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory
@@ -26,9 +28,13 @@
     |- custom_component 
 ```
  
-1. Deploy to the client’s staging server  
-2. If they do not have a staging server – use mysite.preparetolaunch.com.au 
- 
+### grunt modules we use
+1. [uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+1. [sass](https://github.com/sindresorhus/grunt-sass)
+1. [watch](https://github.com/gruntjs/grunt-contrib-watch)
+1. [jshint](https://github.com/gruntjs/grunt-contrib-jshint)
+
+
 ## Themes – List of Approved Themes
 All website themes should be child themes of the parent theme unless its a custom build
 We dont use Genesis
