@@ -4,6 +4,7 @@
 1. No “cowboy coding”. All code and design changes are carried out on a testing server first before implementing on a live website.
 1. Develop locally 
 1. We use bourbon and neat not bootstrap  
+1. We use inline svgs for icons and logos 
 1. All code is to be modular and deployed to github for reuse. 
 1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
 1. Deploy to the client’s staging server  
