@@ -25,13 +25,15 @@
     |- custom_component 
 ```
  
-1. Deploy to  the client’s staging server  
+1. Deploy to the client’s staging server  
 2. If they do not have a staging server – use mysite.preparetolaunch.com.au 
  
 ## Themes – List of Approved Themes
-All website themes should be child themes of the parent theme (if not using _s)
-Fortuna
-Dont use Genesis
+All website themes should be child themes of the parent theme unless its a custom build
+We dont use Genesis
+1. Fortuna
+1. Divi 
+1. Artday 
  
 ## Plugins – List of Approved Plugins
 Please seek approval when adding a plugin that is not part of this list. (*we will add and grow this list.)
@@ -39,7 +41,7 @@ Please seek approval when adding a plugin that is not part of this list. (*we wi
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
 1. Advanced Custom Fields Pro (we have a premium license)
-1. updraft
+1. Updraft
 1. Wordfence 
 1. Knowlege base by press apps (premium) 
 1. Enhanced media library (premium) 
@@ -48,7 +50,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Gravity Forms   (we have a premium license)
 1. Tablepress 
 1. Yoast
-1. woocommerce
+1. Woocommerce
  
  
 # For Custom Coding
