@@ -30,7 +30,7 @@
  
 ### grunt modules we use
 1. [uglify](https://github.com/gruntjs/grunt-contrib-uglify)
-1. [sass](https://github.com/sindresorhus/grunt-sass)
+1. [sass](https://github.com/sindresorhus/grunt-sass) with [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/)
 1. [sass globing](https://github.com/DennisBecker/grunt-sass-globbing)
 1. [watch](https://github.com/gruntjs/grunt-contrib-watch)
 1. [jshint](https://github.com/gruntjs/grunt-contrib-jshint)
