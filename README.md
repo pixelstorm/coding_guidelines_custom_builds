@@ -8,6 +8,7 @@
 1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
  
 ### Filestructure
+ Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory
 ```
  theme 
   | dev  
