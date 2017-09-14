@@ -1,15 +1,20 @@
-# Best Practices and Coding Standards
+# Best Practices and Coding Standards (some rules only apply to custom builds. Use your own judgement)
  
 1. No inline code in the wordpress text editor of custom fields, no code is to be exposed to the client in the backend. 
 1. No “cowboy coding”. All code and design changes are carried out on a testing server first before implementing on a live website.
 1. Develop locally 
-1. Use bourbon and neat NOT BOOTSTRAP  
-1. Use a BEM css methodlogy
 1. Use inline svgs for icons and logos 
 1. All code is to be modular and deployed to github for reuse. 
 1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
 1. Deploy to the client’s staging server  
 1. If they do not have a staging server – use mysite.preparetolaunch.com.au 
+
+
+### Css
+1. Use bourbon and neat NOT BOOTSTRAP  
+1. Use a BEM css methodlogy
+1. Use container to set the content width 
+1. Use wrapper to surround an element that needs some padding, margins or background properties 
  
 ### Filestructure
  Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory. And we use [load-grunt-config](https://github.com/firstandthird/load-grunt-config) to seaprate the grunt file into individual files
