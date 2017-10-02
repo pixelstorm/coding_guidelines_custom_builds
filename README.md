@@ -12,7 +12,7 @@
 
 ### Css
 1. Use bourbon and neat NOT BOOTSTRAP  
-1. Use a BEM css methodlogy
+1. Use a BEM css metholodgy
 1. Use container to set the content width 
 1. Use wrapper to surround an element that needs some padding, margins or background properties 
  
