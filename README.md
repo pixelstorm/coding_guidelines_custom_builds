@@ -76,6 +76,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
  
 # Custom Coding
 1.   Prefix all functions with pxs_.
+1.   Do provide comments for functions and templates.
 
 ### We adhere to wordpress best practices broadly defined here:
 
