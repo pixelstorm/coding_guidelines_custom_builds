@@ -24,7 +24,7 @@
 ### Filestructure
  Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory. And we use [load-grunt-config](https://github.com/firstandthird/load-grunt-config) to seaprate the grunt file into individual files
 ```
- theme (child or custom theme) 
+ theme (custom theme) 
   | dev  
     - Gruntfile.js  
     - package.json  
@@ -57,13 +57,6 @@
 1. [jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 
 
-## Themes – List of Approved Themes
-All website themes should be child themes of the parent theme unless its a custom build
-We dont use Genesis
-1. Fortuna
-1. Divi 
-1. Artday 
- 
 ## Plugins – List of Approved Plugins
 Please seek approval when adding a plugin that is not part of this list. (*we will add and grow this list.)
  
@@ -81,29 +74,39 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Yoast
 1. Woocommerce
  
- 
-# For Custom Coding
+# Custom Coding
 1.   Prefix all functions with pxs_.
 
-We adhere to WordPress best practices broadly defined here:
+### We adhere to wordpress best practices broadly defined here:
 
-http://codex.wordpress.org/Working_with_WordPress  http://codex.wordpress.org/Developer_Documentation  
-1.   All code should be compatible with the latest version of WordPress.
-1.   Follow the WordPress Coding Standards.  http://codex.wordpress.org/WordPress_Coding_Standards
-1.   Data must be validated and sanitized on input and escaped on output.
-1.   Avoid direct calls to PHP scripts in your theme and do not try to load the WordPress environment on your own.
-1.   Ensure code will be both backward-compatible and future-proof using the WordPress Core APIs.
-1.   Encapsulate all code within a theme and plugins – do not scatter scripts or other assets in other locations.
-1.   Use standard WordPress theme development practices. Avoid overriding the native theming engine with a third party engine (e.g. Mustache or Smarty) or an unusual framework.
-1.   Avoid modifying the server side page rendering based on visitor or other one off properties for unauthenticated visitors (this is imperative in environments with page caching enabled).
-1.   Avoid interacting with cookies on the server side. Client side interaction (JavaScript) is fine.
-1.   Avoid direct interaction with database tables (SQL queries). Strongly avoid scripts that alter the database structure by, for example, adding or altering database fields, and creating new tables.
-1.   Clean up after yourself: remove unused files and directories and any unused code fragments or debugging comments.
-1.   Adhere to a consistent coding style.
+http://codex.wordpress.org/working_with_wordpress  http://codex.wordpress.org/developer_documentation  
 
-*Under NO circumstances should you ever edit WordPress core files OR plugin files directly. 
-If you need to modify a plugin, hook from the theme’s functions.php file or create a custom plugin.
-Database
+1. all code should be compatible with the latest version of wordpress.
+
+1. follow the wordpress coding standards.  http://codex.wordpress.org/wordpress_coding_standards
+
+1. data must be validated and sanitized on input and escaped on output.
+
+1. avoid direct calls to php scripts in your theme and do not try to load the wordpress environment on your own.
+1. ensure code will be both backward-compatible and future-proof using the wordpress core apis.
+1. encapsulate all code within a theme and plugins – do not scatter scripts or other assets in other locations.
+
+1. use standard wordpress theme development practices. avoid overriding the native theming engine with a third party engine (e.g. mustache or smarty) or an unusual framework.
+
+1. avoid modifying the server side page rendering based on visitor or other one off properties for unauthenticated visitors (this is imperative in environments with page caching enabled).
+
+1. avoid interacting with cookies on the server side. client side interaction (javascript) is fine.
+
+1. avoid direct interaction with database tables (sql queries). strongly avoid scripts that alter the database structure by, for example, adding or altering database fields, and creating new tables.
+
+1. clean up after yourself: remove unused files and directories and any unused code fragments or debugging comments.
+
+1. adhere to a consistent coding style.
+
+*under no circumstances should you ever edit wordpress core files or plugin files directly. 
+if you need to modify a plugin, hook from the theme’s functions.php file or create a custom plugin.
+
+### Database
 
 Avoid direct interaction with database tables (SQL queries). 
 In reality, 9 out of 10 times, the same result can be accomplished by using an official WordPress function or API, which often include sophisticated caching while ensuring forwards compatibility.
@@ -114,11 +117,13 @@ In the event that database interaction is truly essential, WordPress provides a 
 
 Learn more about the $wpdb Object: http://codex.wordpress.org/Class_Reference/wpdb
 
-Validation and Sanitization
-### Input Validation
+### Validation and Sanitization
+
+#### Input Validation
 To validate is to ensure the data you’ve requested of the user matches what they’ve submitted. There are several core methods you can use for input validation; usage obviously depends on the type of fields you’d like to validate.
 More
 information:http://codex.wordpress.org/Validating_Sanitizing_and_Escaping_User_Data#Validating:_Checki ng_User_Input
-### Escape Output
+
+#### Escape Output
 For security on the other end of the spectrum, we have escaping. To escape is to take the data you may already have and help secure it prior to rendering it for the end user.
 More information: http://codex.wordpress.org/Validating_Sanitizing_and_Escaping_User_Data#Escaping:_Securing_Output
