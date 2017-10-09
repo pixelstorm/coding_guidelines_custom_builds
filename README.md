@@ -56,6 +56,8 @@
 1. [watch](https://github.com/gruntjs/grunt-contrib-watch)
 1. [jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 
+### wordpress setup
+1. dont use admin as the username
 
 ## Plugins – List of Approved Plugins
 Please seek approval when adding a plugin that is not part of this list. (*we will add and grow this list.)
