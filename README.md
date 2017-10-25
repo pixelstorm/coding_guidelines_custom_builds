@@ -1,66 +1,23 @@
 # Best Practices and Coding Standards for custom builds
  
 1. No inline code in the wordpress text editor of custom fields, no code is to be exposed to the client in the backend. 
-
 1. No “cowboy coding”. All code and design changes are carried out on a local testing server first before implementing on staging or live website.
-
 1. Use inline svgs for icons and logos 
-
-1. All code is to be modular and deployed to github for reuse. 
-
-1. if its just a snippet of code for wp then upload it to the wp snippets repo. We also have a snippets repo for woocommerce and gravity form snippets.
-
-1. Deploy to the client’s staging server  
-
-1. If they do not have a staging server – use mysite.preparetolaunch.com.au 
-
+1. Develop locally
+1. Develop using reusable modular components
+[usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
 
 ### Css
-1. Use bourbon and neat NOT BOOTSTRAP  
+1. we prefer to use bourbon and neat NOT BOOTSTRAP  
 1. Use a BEM css metholodgy
-1. Use 'container' class to set the content width 
-1. Use 'wrapper' class  to surround an element that needs some padding, margins or background properties 
+1. Use 'block__container' class to set the content width 
+1. Use 'block__wrapper' class to surround an element that needs some padding, margins or background properties 
  
-### Filestructure
- Use [sass globing](https://github.com/DennisBecker/grunt-sass-globbing) to pull in all the sass partials from the components directory. And we use [load-grunt-config](https://github.com/firstandthird/load-grunt-config) to seaprate the grunt file into individual files
-```
- theme (custom theme) 
-  | dev  
-    - Gruntfile.js  
-    - package.json  
-    |- grunt  
-	 - sass.js  
-	 - sass-globbing.js  
-	 - uglify.js  
-	 - jshint.js  
-	 - watch.js  
-	 - aliases.yaml  
-    |- node_modules (exclude from commits) 
-    |- sass 
-	 |- bourbon 
-	 |- neat  
-	 |- _custom.scss (main stylesheet)
-	 |- _mixins.scss 
-  |- components 
-    |- custom_component (commit to github) 
-	 |- php, scss and js files for the component 
-    |- custom_component 
-    |- custom_component 
-```
- 
-### grunt modules we use
-1. [uglify](https://github.com/gruntjs/grunt-contrib-uglify)
-1. [sass](https://github.com/sindresorhus/grunt-sass) with [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/)
-1. [sass globing](https://github.com/DennisBecker/grunt-sass-globbing)
-1. [load-grunt-config](https://github.com/firstandthird/load-grunt-config)
-1. [watch](https://github.com/gruntjs/grunt-contrib-watch)
-1. [jshint](https://github.com/gruntjs/grunt-contrib-jshint)
-
 ### wordpress setup
-1. dont use admin as the username
+1. choose a unique relervent username
 
 ## Plugins – List of Approved Plugins
-Please seek approval when adding a plugin that is not part of this list. (*we will add and grow this list.)
+Please discuss if when adding a plugin that is not part of this list.
  
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
@@ -73,38 +30,41 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Query monitor (premium) 
 1. Gravity Forms   (we have a premium license)
 1. Tablepress 
+1. Timber 
 1. Yoast
 1. Woocommerce
  
 # Custom Coding
-1.   Prefix all functions with pxs_.
-1.   Do provide comments for functions and templates.
+1.  Prefix all functions with pxs_.
+1.  Provide comments for functions and templates.
 
 ### We adhere to wordpress best practices broadly defined here:
 
 http://codex.wordpress.org/working_with_wordpress  http://codex.wordpress.org/developer_documentation  
 
-1. all code should be compatible with the latest version of wordpress.
+1. All code should be compatible with the latest version of wordpress.
 
-1. follow the wordpress coding standards.  http://codex.wordpress.org/wordpress_coding_standards
+1. Follow the wordpress coding standards.  http://codex.wordpress.org/wordpress_coding_standards
 
-1. data must be validated and sanitized on input and escaped on output.
+1. Data must be validated and sanitized on input and escaped on output.
 
-1. avoid direct calls to php scripts in your theme and do not try to load the wordpress environment on your own.
-1. ensure code will be both backward-compatible and future-proof using the wordpress core apis.
-1. encapsulate all code within a theme and plugins – do not scatter scripts or other assets in other locations.
+1. Avoid direct calls to php scripts in your theme and do not try to load the wordpress environment on your own.
 
-1. use standard wordpress theme development practices. avoid overriding the native theming engine with a third party engine (e.g. mustache or smarty) or an unusual framework.
+1. Ensure code will be both backward-compatible and future-proof using the wordpress core apis.
 
-1. avoid modifying the server side page rendering based on visitor or other one off properties for unauthenticated visitors (this is imperative in environments with page caching enabled).
+1. Encapsulate all code within a theme and plugins – do not scatter scripts or other assets in other locations.
 
-1. avoid interacting with cookies on the server side. client side interaction (javascript) is fine.
+1. Use standard wordpress theme development practices. avoid overriding the native theming engine with a third party engine (e.g. mustache or smarty) or an unusual framework.
 
-1. avoid direct interaction with database tables (sql queries). strongly avoid scripts that alter the database structure by, for example, adding or altering database fields, and creating new tables.
+1. Avoid modifying the server side page rendering based on visitor or other one off properties for unauthenticated visitors (this is imperative in environments with page caching enabled).
 
-1. clean up after yourself: remove unused files and directories and any unused code fragments or debugging comments.
+1. Avoid interacting with cookies on the server side. client side interaction (javascript) is fine.
 
-1. adhere to a consistent coding style.
+1. Avoid direct interaction with database tables (sql queries). strongly avoid scripts that alter the database structure by, for example, adding or altering database fields, and creating new tables.
+
+1. Clean up after yourself: remove unused files and directories and any unused code fragments or debugging comments.
+
+1. Adhere to a consistent coding style.
 
 *under no circumstances should you ever edit wordpress core files or plugin files directly. 
 if you need to modify a plugin, hook from the theme’s functions.php file or create a custom plugin.
