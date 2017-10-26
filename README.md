@@ -1,9 +1,9 @@
 # Best Practices and Coding Standards for custom builds
  
-1. No inline code in the wordpress text editor of custom fields, no code is to be exposed to the client in the backend. 
-1. No “cowboy coding”. All code and design changes are carried out on a local testing server first before implementing on staging or live website.
+1. Develop using php 7 and above 
+1. No inline code, no code is to be exposed to the client in the admin area. 
 1. Use inline svgs for icons and logos 
-1. Develop locally
+1. Develop locally before implementing on staging or live site
 1. Develop using reusable modular components
 [usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
 
