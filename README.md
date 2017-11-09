@@ -36,7 +36,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Woocommerce
  
 # Custom Coding
-1.  Prefix all functions with pxs_.
+1.  Prefix all functions with pxs_ and tables with a unique white_label prefix.
 1.  Provide comments for functions and templates.
 
 ### We adhere to wordpress best practices broadly defined here:
