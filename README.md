@@ -37,7 +37,8 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
  
 # Custom Coding
 1.  Prefix all functions with pxs_ and tables with a unique white_label prefix.
-1.  Provide comments for functions and templates.
+1. Provide comments for functions and templates.
+1. Site must validate on [wave]( http://wave.webaim.org/ ) and [ csslint ](http://csslint.net/)
 
 ### We adhere to wordpress best practices broadly defined here:
 
