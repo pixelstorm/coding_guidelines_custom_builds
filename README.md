@@ -10,8 +10,9 @@
 ### Css
 1. we prefer to use bourbon and neat NOT BOOTSTRAP  
 1. Use a BEM css metholodgy
-1. Use 'block__container' class to set the content width 
-1. Use 'block__wrapper' class to surround an element that needs some padding, margins or background properties 
+
+### html
+HTML5 elements and markup to be used according to best practices
  
 ### wordpress setup
 1. choose a unique relervent username
