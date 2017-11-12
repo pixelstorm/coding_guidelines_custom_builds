@@ -7,6 +7,8 @@
 1. Develop using reusable modular components
 [usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
 
+1. All media/images are to be loaded into the wp-content/uploads diectory and accessible via to the wp-admin
+
 ### Css
 1. we prefer to use bourbon and neat NOT BOOTSTRAP  
 1. Use a BEM css metholodgy
