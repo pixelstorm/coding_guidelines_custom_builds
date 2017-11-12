@@ -41,6 +41,13 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. follow html 5 best practices
 1. Site must validate on [wave]( http://wave.webaim.org/ ) and [ csslint ](http://csslint.net/)
 
+
+# Testing in browser stack (login supplied)
+1. Ios iphone4 and up, Ipad all versions 
+1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
+1. Internet Explorer 11 and up 
+1. latest versions of Firefox, Chrome and Safari 
+
 ### We adhere to wordpress best practices broadly defined here:
 
 http://codex.wordpress.org/working_with_wordpress  http://codex.wordpress.org/developer_documentation  
