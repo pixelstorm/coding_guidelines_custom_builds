@@ -3,7 +3,7 @@
 1. Develop using php 7 and above 
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
 1. Use inline svgs for icons and logos 
-1. Develop locally before implementing on staging or live site
+1. Develop locally before implementing on NOFOLLOW staging
 1. Develop using reusable modular components
 [usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
 
