@@ -43,12 +43,36 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. follow html 5 best practices
 1. Site must validate on [wave]( http://wave.webaim.org/ ) and [ csslint ](http://csslint.net/)
 
+# Filestructure for grunt and sass files
+```
+child-theme-directory 
+	       | dev  
+		- Gruntfile.js  
+		- package.json  
+		|- grunt  
+		     - sass.js  
+		     - sass-globbing.js  
+		     - uglify.js  
+		     - jshint.js  
+		     - watch.js  
+		     - aliases.yaml  
+		|- node_modules (exclude from commits) 
+		|- sass 
+		     |- bourbon 
+		     |- neat  
+		     |- _custom.scss (main stylesheet)
+		     |- _mixins.scss 
+```
+
+The dev file is ommitted from upload to the staging and production server so DONT include any production css files in the dev directory
 
 # Testing in browser stack (login supplied)
 1. Ios iphone4 and up, Ipad all versions 
 1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
 1. Internet Explorer 11 and up 
 1. latest versions of Firefox, Chrome and Safari 
+
+
 
 ### We adhere to wordpress best practices broadly defined here:
 
