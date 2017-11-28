@@ -4,13 +4,15 @@
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
 1. Use inline svgs for icons and logos 
 1. Develop locally before implementing on NOFOLLOW staging
+1. Dont use genesis or other framework
+1. Use ACF and Twig   
 1. Develop using reusable modular components
 [usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
 
-1. All media/images are to be loaded into the wp-content/uploads diectory and accessible via to the wp-admin
+1. All media/images are to be loaded into the wp-content/uploads directory and accessible via to the wp-admin
 
 ### Css
-1. we prefer to use bourbon and neat NOT BOOTSTRAP  
+1. Use bourbon and neat NOT BOOTSTRAP  
 1. Use a BEM css metholodgy
 
 ### html
@@ -27,9 +29,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Advanced Custom Fields Pro (we have a premium license)
 1. Updraft
 1. Wordfence 
-1. Knowlege base by press apps (premium) 
 1. Enhanced media library (premium) 
-1. Wp all import (premium) 
 1. Query monitor (premium) 
 1. Gravity Forms   (we have a premium license)
 1. Tablepress 
@@ -66,13 +66,16 @@ child-theme-directory
 
 The dev file is ommitted from upload to the staging and production server so DONT include any production css files in the dev directory
 
+#git 
+1. Install git in the root directory
+1. commit reguarly
+
+
 # Testing in browser stack (login supplied)
 1. Ios iphone4 and up, Ipad all versions 
 1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
 1. Internet Explorer 11 and up 
 1. latest versions of Firefox, Chrome and Safari 
-
-
 
 ### We adhere to wordpress best practices broadly defined here:
 
