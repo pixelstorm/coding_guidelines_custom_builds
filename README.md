@@ -48,7 +48,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 
 # Filestructure for grunt and sass files
 ```
-child-theme-directory 
+theme-directory 
 	       | dev  
 		- Gruntfile.js  
 		- package.json  
