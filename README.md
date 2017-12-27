@@ -4,8 +4,9 @@
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
 1. Use inline svgs for icons and logos 
 1. Develop locally before implementing on NOFOLLOW staging
+1. Develop with define('wp_debug', true); 
 1. Dont use genesis or other framework
-1. Use ACF and Twig   
+1. Use ACF and Twig 
 1. Develop using reusable modular components
 [usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
 
@@ -15,7 +16,7 @@
 1. Use bourbon and neat NOT BOOTSTRAP  
 1. Use a BEM css metholodgy
 1. dont use id's for css selectors. Only use ids for js
-1. use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://madebymike.com.au/writing/precise-control-responsive-typography/)
+1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://madebymike.com.au/writing/precise-control-responsive-typography/)
 
 
 ### html
