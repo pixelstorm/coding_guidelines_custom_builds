@@ -16,7 +16,7 @@
 1. Use bourbon and neat NOT BOOTSTRAP  
 1. Use a BEM css metholodgy
 1. dont use id's for css selectors. Only use ids for js
-1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://madebymike.com.au/writing/precise-control-responsive-typography/)
+1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo)
 
 
 ### html
