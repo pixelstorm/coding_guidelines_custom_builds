@@ -2,20 +2,18 @@
  
 1. Develop using php 7 and above 
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
-1. Use inline svgs for icons and logos 
-1. Develop locally before implementing on NOFOLLOW staging
+1. Use svgs for icons and logos where posible 
+1. Develop locally deploy to a NOFOLLOW staging url
 1. Develop with define('wp_debug', true); 
-1. Dont use genesis or other framework
-1. Use ACF and Twig 
-1. Develop using reusable modular components
-[usable component guide](https://github.com/pixelstorm/coding_guidelines_reusable_components)
+1. Use Advanced Custom fields to build custom content areas and fields 
+1. Develop 1 self contained modular component at a time [dev by component guide](https://github.com/pixelstorm/coding_guidelines_components)
 
 1. All media/images are to be loaded into the wp-content/uploads directory and accessible via to the wp-admin
 
 ### Css
-1. Use bourbon and neat NOT BOOTSTRAP  
+1. Use bourbon.io and neat.io
 1. Use a BEM css metholodgy
-1. dont use id's for css selectors. Only use ids for js
+1. Dont use id's for css selectors. Only use ids for js
 1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo)
 
 
@@ -23,7 +21,7 @@
 HTML5 elements and markup to be used according to best practices
  
 ### wordpress setup
-1. choose a unique relervent username
+1. Choose a unique relavent username
 
 ## Plugins – List of Approved Plugins
 Please discuss if when adding a plugin that is not part of this list.
@@ -34,7 +32,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Updraft
 1. Wordfence 
 1. Enhanced media library (premium) 
-1. Query monitor (premium) 
+1. Query monitor 
 1. Gravity Forms   (we have a premium license)
 1. Tablepress 
 1. Timber 
@@ -42,40 +40,40 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Woocommerce
  
 # Custom Coding
-1.  Prefix all functions with pxs_ and tables with a unique white_label prefix.
+1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
 1. Provide comments for functions and templates.
 1. follow html 5 best practices
 1. Site must validate on [wave]( http://wave.webaim.org/ ) and [ csslint ](http://csslint.net/)
 
-# Filestructure for grunt and sass files
+# Filestructure 
 ```
-theme-directory 
-	       | dev  
-		- Gruntfile.js  
-		- package.json  
-		|- grunt  
-		     - sass.js  
-		     - sass-globbing.js  
-		     - uglify.js  
-		     - jshint.js  
-		     - watch.js  
-		     - aliases.yaml  
-		|- node_modules (exclude from commits) 
-		|- sass 
-		     |- bourbon 
-		     |- neat  
-		     |- _custom.scss (main stylesheet)
-		     |- _mixins.scss 
+ theme (custom theme) 
+  |- components 
+    |- custom_component (commit to github) 
+	 |- php, scss and js files for the component 
+    |- custom_component 
+    |- custom_component 
+  | dev  
+    - Gruntfile.js  
+    - package.json  
+    |- grunt  
+    |- node_modules (exclude from commits) 
+    |- sass 
+	 |- bourbon 
+	 |- neat  
+	 |- _custom.scss (main stylesheet)
+	 |- _mixins.scss 
 ```
 
 The dev file is ommitted from upload to the staging and production server so DONT include any production css files in the dev directory
 
 #git 
-1. Install git in the root directory
+1. Install git in the wp-content directory
 1. commit reguarly
 
 
 # Testing in browser stack (login supplied)
+
 1. Ios iphone4 and up, Ipad all versions 
 1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
 1. Internet Explorer 11 and up 
