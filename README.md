@@ -6,7 +6,7 @@
 1. Develop locally deploy to a NOFOLLOW staging url
 1. Develop with define('wp_debug', true); 
 1. Use Advanced Custom fields to build custom content areas and fields 
-1. Develop 1 self contained modular components. Develop them one at a time [dev by component guide](https://github.com/pixelstorm/coding_guidelines_components)
+1. Develop self contained modular components. Develop them one at a time [dev by component guide](https://github.com/pixelstorm/coding_guidelines_components)
 
 1. All media/images are to be loaded into the wp-content/uploads directory and accessible via to the wp-admin
 
