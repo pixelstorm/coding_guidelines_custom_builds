@@ -15,13 +15,20 @@
 1. Use a BEM css metholodgy
 1. Dont use id's for css selectors. Only use ids for js
 1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo)
+1. compress your css files into one minified file
 
+### js
+compress your js files into one minified file
 
 ### html
 HTML5 elements and markup to be used according to best practices
  
 ### wordpress setup
 1. Choose a unique relavent username
+1. Ensure comments are disabled
+1. Disable RSS feeds
+1. Use a pixelstorm email address as the setup email address
+1. Remove 'just another wordpress site' from the strapline - replace with company strapline if they have one.
 
 ## Plugins – List of Approved Plugins
 Please discuss if when adding a plugin that is not part of this list.
@@ -32,10 +39,9 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Updraft
 1. Wordfence 
 1. Enhanced media library (premium) 
-1. Query monitor 
+1. Query monitor (use on staging sites only)
 1. Gravity Forms   (we have a premium license)
 1. Tablepress 
-1. Timber 
 1. Yoast
 1. Woocommerce
  
