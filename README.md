@@ -31,6 +31,8 @@ HTML5 elements and markup to be used according to best practices
 1. Remove 'just another wordpress site' from the strapline - replace with company strapline if they have one.
 1. Replace wp logo with client logo on the wordpress admin login screen
 1. delete, hello world post, sample page and hello dolly and akismet
+1. disable comments on new posts in site settings
+
 
 
 ## Plugins – List of Approved Plugins
