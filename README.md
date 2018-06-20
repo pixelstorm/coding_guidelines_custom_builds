@@ -32,6 +32,7 @@ HTML5 elements and markup to be used according to best practices
 1. Replace wp logo with client logo on the wordpress admin login screen
 1. delete, hello world post, sample page and hello dolly and akismet
 1. disable comments on new posts in site settings
+1. set utc time to +10 and week starts on Sunday 
 
 
 
