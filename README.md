@@ -5,6 +5,7 @@
 1. Use svgs for icons and logos where posible 
 1. Develop locally deploy to a NOFOLLOW staging url
 1. Develop with define('wp_debug', true); 
+1. Build all a responsive html and css hardcoded site first before implementing advanced custom fields and dynamic data funcitonality.
 1. Use Advanced Custom fields & Hookturn plugins to build custom content areas and fields 
 1. Develop self contained modular components. Develop them one at a time [dev by component guide](https://github.com/pixelstorm/coding_guidelines_components)
 
@@ -30,9 +31,9 @@ HTML5 elements and markup to be used according to best practices
 1. Use a pixelstorm email address as the setup email address
 1. Remove 'just another wordpress site' from the strapline - replace with company strapline if they have one.
 1. Replace wp logo with client logo on the wordpress admin login screen
-1. delete, hello world post, sample page and hello dolly and akismet
-1. disable comments on new posts in site settings
-1. set utc time to +10 and week starts on Sunday 
+1. Delete, hello world post, sample page and hello dolly and akismet
+1. Disable comments on new posts in site settings
+1. Set utc time to +10 and week starts on Sunday 
 
 
 
