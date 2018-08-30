@@ -20,7 +20,7 @@
 1. compress your css files into one minified file
 
 ### js
-compress your js files into one minified file
+1. Compress your js files into one minified file
 
 ### html
 HTML5 elements and markup to be used according to best practices
