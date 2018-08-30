@@ -25,10 +25,11 @@ compress your js files into one minified file
 ### html
 HTML5 elements and markup to be used according to best practices
  
-### wordpress setup
-1. Choose a unique relavent username
+### WordPress Setup
+1. Choose a unique relavent username(not admin)
 1. Ensure comments are disabled
 1. Disable RSS feeds
+1. Use a unique table prefix 
 1. Use a pixelstorm email address as the setup email address
 1. Remove 'just another wordpress site' from the strapline - replace with company strapline if they have one.
 1. Replace wp logo with client logo on the wordpress admin login screen
@@ -52,6 +53,9 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Tablepress 
 1. Yoast
 1. Woocommerce
+
+
+1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
  
 # Custom Coding
 1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
