@@ -10,6 +10,7 @@
 1. Develop self contained modular components. Develop them one at a time [dev by component guide](https://github.com/pixelstorm/coding_guidelines_components)
 
 1. All media/images are to be loaded into the wp-content/uploads directory and accessible via to the wp-admin
+1. Create custom image sizes for all components that use images.
 
 ### Css
 1. Use bourbon.io and neat.io
@@ -67,9 +68,7 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
     |- custom_component 
     |- custom_component 
   | dev  
-    - Gruntfile.js  
     - package.json  
-    |- grunt  
     |- node_modules (exclude from commits) 
     |- sass 
 	 |- bourbon 
