@@ -2,9 +2,9 @@
  
 1. Develop using php 7.2
 1. Use git feature branches. Merge Feature branches into master repo when feature is approved.
-1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
-1. Use svgs for icons and logos where posible 
-1. Develop locally deploy to a NOFOLLOW staging url
+1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area.
+1. Use svgs for icons and logos where posible.
+1. Develop locally deploy to a NOFOLLOW staging url.
 1. Develop with define('wp_debug', true); 
 1. Build all a responsive html and css hardcoded site first before implementing advanced custom fields and dynamic data funcitonality.
 1. Use Advanced Custom fields & Hookturn plugins to build custom content areas and fields 
@@ -74,13 +74,15 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 The dev file is ommitted from upload to the staging and production server so DONT include any production css files in the dev directory
 
 #git 
-1. Install git in the wp-content directory
-1. commit reguarly
+1. Install git in the custom theme directory
+1. Checkout feature branches when working on a new feature
+1. Deploy your branch through beanstalk
+1. Once your feature branch is approved - merge it into your master repo. 
 
 
 # Testing in browser stack (login supplied)
 
-1. Ios iphone4 and up, Ipad all versions 
+1. Ios iphone5 and up, Ipad all versions 
 1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
 1. Internet Explorer 11 and up 
 1. latest versions of Firefox, Chrome and Safari 
