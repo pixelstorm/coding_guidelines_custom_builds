@@ -2,12 +2,12 @@
  
 1. Develop using php 7.2
 1. Use git feature branches. Merge Feature branches into master repo when feature is approved.
-1. Use [Underscores] (https://underscores.me/) as the starter theme.
+1. Use [ Underscores ](https://underscores.me/) as the starter theme.
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area.
 1. Use svgs for icons and logos where posible.
 1. Develop locally deploy to a NOFOLLOW staging url.
 1. Develop with define('wp_debug', true); 
-1. Build all a responsive html and css hardcoded site first before implementing advanced custom fields and dynamic data funcitonality.
+1. Build all a responsive html and css hardcoded site first before implementing advanced custom fields and dynamic data functionality.
 1. Use Advanced Custom fields & Hookturn plugins to build custom content areas and fields 
 
 1. All media/images are to be loaded into the wp-content/uploads directory and accessible via to the wp-admin
