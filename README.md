@@ -1,6 +1,6 @@
 # Best Practices and Coding Standards for custom builds
  
-1. Develop using php 7 and above 
+1. Develop using php 7.2
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
 1. Use svgs for icons and logos where posible 
 1. Develop locally deploy to a NOFOLLOW staging url
