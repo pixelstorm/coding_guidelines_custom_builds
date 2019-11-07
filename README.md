@@ -44,12 +44,8 @@ Please discuss if when adding a plugin that is not part of this list.
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
 1. Advanced Custom Fields Pro (we have a premium license)
-1. Updraft
-1. Wordfence 
-1. Enhanced media library (premium) 
 1. Query monitor (use on staging sites only)
 1. Gravity Forms   (we have a premium license)
-1. Tablepress 
 1. Yoast
 1. Woocommerce
 
