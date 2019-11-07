@@ -1,6 +1,7 @@
 # Best Practices and Coding Standards for custom builds
  
 1. Develop using php 7.2
+1. Use git feature branches. Merge Feature branches into master repo when feature is approved.
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area. 
 1. Use svgs for icons and logos where posible 
 1. Develop locally deploy to a NOFOLLOW staging url
