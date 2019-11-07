@@ -38,13 +38,12 @@ HTML5 elements and markup to be used according to best practices
 
 
 
-## Plugins – List of Approved Plugins
+## Plugins – List of Approved Plugins for production site
 Please discuss if when adding a plugin that is not part of this list.
  
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
 1. Advanced Custom Fields Pro (we have a premium license)
-1. Query monitor (use on staging sites only)
 1. Gravity Forms   (we have a premium license)
 1. Yoast
 1. Woocommerce
