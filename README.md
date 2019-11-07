@@ -60,11 +60,6 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 # Filestructure 
 ```
  theme (custom theme) 
-  |- components 
-    |- custom_component (commit to github) 
-	 |- php, scss and js files for the component 
-    |- custom_component 
-    |- custom_component 
   | dev  
     - package.json  
     |- node_modules (exclude from commits) 
