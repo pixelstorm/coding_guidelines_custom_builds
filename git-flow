@@ -2,10 +2,21 @@ Repos have two main branches:
   - master(deployed to production) and 
   - staging (deployed to staging).
 
-When working on a feature
- - pull from staging
- - checkout the feature "feature/my_feature" from staging
-
-When working on a bugfix
- - pull from staging
- - checkout the bug "bug/my_bug" from staging
+When working on a feature or bug fix:
+ - pull from remote staging repo
+ - checkout the feature "feature/my_feature" or "bug/my_bug" from local staging
+ - dev and test locally
+ - merge into staging locally
+ - deploy to remote staging repo (which is set to auto deploy through beanstalk to staging site)
+ - test on staging site
+ - notify QA with link to staging url
+ 
+ Deploying live:
+ if your feature or bug has been approved.
+ - notify QA deploy to production is about to begin.
+ - local checkout master
+ - pull from remote master repo
+ - merge local staging into master
+ - push to master repo (set to manual deploy through beanstalk).
+ - if push is successful then do manual deply
+ - notify QA with link to production url
