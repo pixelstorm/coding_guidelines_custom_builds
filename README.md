@@ -18,10 +18,10 @@
 1. Use a BEM css metholodgy
 1. Dont use id's for css selectors. Only use ids for js
 1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo)
-1. compress your css files into one minified file
+1. When deploying to production, compress your css files into one minified file
 
 ### js
-1. Compress your js files into one minified file
+1. When deploying to production, Compress your js files into one minified file
 
 ### html
 HTML5 elements and markup to be used according to best practices
@@ -39,14 +39,13 @@ HTML5 elements and markup to be used according to best practices
 1. Set utc time to +10 and week starts on Sunday 
 
 
-
 ## Plugins – List of Approved Plugins for production site
 Please discuss if when adding a plugin that is not part of this list.
  
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
 1. Advanced Custom Fields Pro (we have a premium license)
-1. Gravity Forms   (we have a premium license)
+1. Gravity Forms (we have a premium license)
 1. Yoast
 1. Woocommerce
 
