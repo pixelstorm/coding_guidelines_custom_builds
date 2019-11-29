@@ -1,0 +1,11 @@
+Repos have two main branches: 
+  - master(deployed to production) and 
+  - staging (deployed to staging).
+
+When working on a feature
+ - pull from staging
+ - checkout the feature "feature/my_feature" from staging
+
+When working on a bugfix
+ - pull from staging
+ - checkout the bug "bug/my_bug" from staging
