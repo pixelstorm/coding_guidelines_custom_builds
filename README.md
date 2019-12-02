@@ -1,12 +1,13 @@
 # Best Practices and Coding Standards for custom builds
  
-1. Develop using php 7.2
+1. Develop using php 7.2 or 7.3
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
 1. Use [ Underscores ](https://underscores.me/) as the starter theme.
 1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area.
 1. Use svgs for icons and logos where posible.
 1. Develop locally deploy to a NOFOLLOW staging url.
 1. Develop with define('wp_debug', true); 
+1. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
 1. Build a static, fully responsive html templates with html / scss first before implementing advanced custom fields and dynamic data functionality.
 1. Use Advanced Custom fields & Hookturn plugins to build custom content areas and fields 
 
