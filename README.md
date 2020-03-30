@@ -18,7 +18,7 @@
 1. Use bourbon.io and neat.io
 1. Use a BEM css metholodgy
 1. Dont use id's for css selectors. Only use ids for js
-1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo)
+1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo) [csstrick tutorial](https://css-tricks.com/snippets/css/fluid-typography/)
 1. When deploying to production, compress your css files into one minified file
 
 ### js
