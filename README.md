@@ -1,44 +1,29 @@
 # Best Practices and Coding Standards for custom builds
  
-1. Develop using php 7.2 or 7.3
+1. Develop using php 7.3 or 7.4
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
-1. Use [ Underscores ](https://underscores.me/) as the starter theme.
-1. No inline code, no hardcoding content into theme files, no code is to be exposed to the client in the admin area.
+1. Use [ Underscores ](https://underscores.me/) as the starter theme or https://github.com/timber/starter-theme.
+1. Do what you have to do to Remain DRY - unless you feel its adding too much complication for too little gain.
 1. Use svgs for icons and logos where posible.
 1. Develop locally deploy to a NOFOLLOW staging url.
 1. Develop with define('wp_debug', true); 
 1. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
-1. Build a static, fully responsive html templates with html / scss first before implementing advanced custom fields and dynamic data functionality.
-1. Use Advanced Custom fields & Hookturn plugins to build custom content areas and fields 
-
-1. All media/images are to be loaded into the wp-content/uploads directory and accessible via to the wp-admin
+1. Build a hardcoded, fully responsive html templates with html / scss / twig / php first before implementing advanced custom fields and dynamic data functionality.
+1. Use Advanced Custom fields, Gutenberg & Hookturn plugins to build custom content areas and fields 
 1. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images.
 
 ### Css
-1. Use bourbon.io and neat.io
+1. Use bourbon.io and neat.io or Bootstrap 4 integrated into your sass files
 1. Use a BEM css metholodgy
 1. Dont use id's for css selectors. Only use ids for js
-1. Use fluid typography mixin for type, padding, margins etc to match mobile and desktop designs accurately. [fluid type mixin](https://codepen.io/MadeByMike/pen/GmBLKo) [csstrick tutorial](https://css-tricks.com/snippets/css/fluid-typography/)
 1. When deploying to production, compress your css files into one minified file
 
 ### js
 1. When deploying to production, Compress your js files into one minified file
-
-### html
-HTML5 elements and markup to be used according to best practices
  
 ### WordPress Setup
 1. Choose a unique relavent username(not admin)
-1. Ensure comments are disabled
-1. Disable RSS feeds
-1. Use a unique table prefix 
-1. Use a pixelstorm email address as the setup email address
-1. Remove 'just another wordpress site' from the strapline - replace with company strapline if they have one.
-1. Replace wp logo with client logo on the wordpress admin login screen
-1. Delete, hello world post, sample page and hello dolly and akismet
-1. Disable comments on new posts in site settings
-1. Set utc time to +10 and week starts on Sunday 
-
+1. Ensure your local and staging site is set to no-follow
 
 ## Plugins – List of Approved Plugins for production site
 Please discuss if when adding a plugin that is not part of this list.
@@ -49,6 +34,9 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Gravity Forms (we have a premium license)
 1. Yoast
 1. Woocommerce
+1. db-migrate
+1. query-monitor for local sites only
+1. any plugins relating to specific functionaliy of the site that does not cause unwanted loadtime.
 
 
 1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
@@ -56,8 +44,6 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 # Custom Coding
 1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
 1. Provide comments for functions and templates.
-1. follow html 5 best practices
-1. Site must validate on [wave]( http://wave.webaim.org/ ) and [ csslint ](http://csslint.net/)
 
 # Filestructure 
 ```
@@ -72,18 +58,17 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 	 |- _mixins.scss 
 ```
 
-The dev file is ommitted from upload to the staging and production server so DONT include any production css files in the dev directory
+Keep all the compressed production ready css and js outside of the dev folder.
 
 #git 
 1. Install git in the custom theme directory
-1. Checkout feature branches when working on a new feature
-1. Deploy your branch through beanstalk
-1. Once your feature branch is approved - merge it into your master repo. 
+1. Checkout a local feature branch when working on a new feature and merge into master when you are done.
+1. Deploy your master branch through beanstalk
 
 
 # Testing in browser stack (login supplied)
 
-1. Ios iphone5 and up, Ipad all versions 
+1. Ios iphone6 and up, Ipad all versions 
 1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
 1. Internet Explorer 11 and up 
 1. latest versions of Firefox, Chrome and Safari 
@@ -91,8 +76,6 @@ The dev file is ommitted from upload to the staging and production server so DON
 ### We adhere to wordpress best practices broadly defined here:
 
 http://codex.wordpress.org/working_with_wordpress  http://codex.wordpress.org/developer_documentation  
-
-1. All code should be compatible with the latest version of wordpress.
 
 1. Follow the wordpress coding standards.  http://codex.wordpress.org/wordpress_coding_standards
 
