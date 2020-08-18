@@ -22,6 +22,20 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 1. Dont use id's for css selectors. Only use ids for js
 1. When deploying to production, compress your css files into one minified file
 
+### Design
+1. Usually we design at the 1920px screen width.
+1. It's expand to the whole screen with some space left and right.
+1. Usually we are not using bootstrap grid as standard.
+1. we use 12 columns
+1. Our points breaks, with mobile first standard:
+   480px
+   768px
+   1024px
+   1280px
+   1440px
+   1920px
+1. We need to export our design to Zeplin, so please use : Sketch / Adobe XD / Figma / Photoshop to design.
+
 ### js
 1. When deploying to production, Compress your js files into one minified file
  
