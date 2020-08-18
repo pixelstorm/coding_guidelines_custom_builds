@@ -10,6 +10,10 @@
 1. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
 1. Build a hardcoded, fully responsive html templates with html / scss / twig / php first before implementing advanced custom fields and dynamic data functionality.
 1. Use Advanced Custom fields, Gutenberg & Hookturn plugins to build custom content areas and fields 
+1. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
+https://www.advancedcustomfields.com/resources/local-json/
+https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
+1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
 1. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images.
 
 ### Css
