@@ -15,6 +15,7 @@ https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
 1. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images.
+1. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images 
 
 ### Css
 1. Use bourbon.io and neat.io or Bootstrap 4 integrated into your sass files
@@ -28,12 +29,12 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 1. Usually we are not using bootstrap grid as standard.
 1. we use 12 columns
 1. Our points breaks, with mobile first standard:
-   480px
-   768px
-   1024px
-   1280px
-   1440px
-   1920px
+   - 480px
+   - 768px
+   - 1024px
+   - 1280px
+   - 1440px
+   - 1920px
 1. We need to export our design to Zeplin, so please use : Sketch / Adobe XD / Figma / Photoshop to design.
 
 ### js
