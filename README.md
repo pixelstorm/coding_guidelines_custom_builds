@@ -15,7 +15,7 @@ https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
 1. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images.
-1. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images Please keep this inmind when choosing slideshow plugins. the slideshows are to also utilise srcset
+1. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images Please keep this inmind when choosing slideshow plugins https://www.metaslider.com/image-slide-demo/. the slideshows are to also utilise srcset
 
 ### Css
 1. Use bourbon.io and neat.io or Bootstrap 4 integrated into your sass files
