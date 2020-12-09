@@ -2,7 +2,7 @@
  
 1. Develop using php 7.3 or 7.4
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
-1. Use [ Underscores ](https://underscores.me/) as the starter theme or https://github.com/timber/starter-theme.
+1. Use [ Underscores ](https://underscores.me/) as the starter theme or if using timber https://github.com/timber/starter-theme. or if using webpack https://github.com/carrieforde/_s-with-webpack
 1. Do what you have to do to Remain DRY - unless you feel its adding too much complication for too little gain.
 1. Use svgs for icons and logos where posible.
 1. Develop locally deploy to a NOFOLLOW staging url.
