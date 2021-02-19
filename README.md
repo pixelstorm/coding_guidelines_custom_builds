@@ -1,16 +1,16 @@
 # Best Practices and Coding Standards for custom builds
  
-1. Develop using php 7.3 or 7.4
+1. Develop using php 7.4
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
 1. Use [ Underscores ](https://underscores.me/) as the starter theme or if using timber https://github.com/timber/starter-theme. or if using webpack https://github.com/carrieforde/_s-with-webpack
 1. Do what you have to do to Remain DRY - unless you feel its adding too much complication for too little gain.
 1. Use svgs for icons and logos where posible.
-1. Develop locally deploy to a NOFOLLOW staging url.
-1. Develop with define('wp_debug', true); 
-1. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
-1. Build a hardcoded, fully responsive html templates with html / scss / twig / php first before implementing advanced custom fields and dynamic data functionality.
-1. Use Advanced Custom fields, Gutenberg & Hookturn plugins to build custom content areas and fields 
-1. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
+3. Develop locally deploy to a NOFOLLOW staging url.
+4. Develop with define('wp_debug', true); 
+5. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
+6. Build a hardcoded, fully responsive html templates with html / scss / twig / php first before implementing advanced custom fields and dynamic data functionality.
+7. Use Advanced Custom fields, Gutenberg & Hookturn plugins to build custom content areas and fields 
+8. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
@@ -18,24 +18,12 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 1. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images Please keep this inmind when choosing slideshow plugins https://www.metaslider.com/image-slide-demo/. the slideshows are to also utilise srcset
 
 ### Css
-1. Use bourbon.io and neat.io or Bootstrap 4 integrated into your sass files
-1. Use a BEM css metholodgy
-1. Dont use id's for css selectors. Only use ids for js
-1. When deploying to production, compress your css files into one minified file
+1. Use REMS for units and set the responsive scale on the html element.
+2. Use css grid and flexbox
+3. Use a BEM css metholodgy
+4. Dont use id's for css selectors. Only use ids for js
+5. When deploying to production, compress your css files into one minified file
 
-### Design
-1. Usually we design at the 1920px screen width.
-1. It's expand to the whole screen with some space left and right.
-1. Usually we are not using bootstrap grid as standard.
-1. we use 12 columns
-1. Our points breaks, with mobile first standard:
-   - 480px
-   - 768px
-   - 1024px
-   - 1280px
-   - 1440px
-   - 1920px
-1. We need to export our design to Zeplin, so please use : Sketch / Adobe XD / Figma / Photoshop to design.
 
 ### js
 1. When deploying to production, Compress your js files into one minified file
@@ -63,6 +51,19 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 # Custom Coding
 1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
 1. Provide comments for functions and templates.
+
+### Design
+1. Usually we design at the 1440px screen width.
+1. Our points breaks, with mobile first standard:
+   - 480px
+   - 768px
+   - 1024px
+   - 1280px
+   - 1440px
+   - 1600px
+   - 1920px
+1. We need to export our design to Zeplin, so please use : Sketch / Adobe XD / Figma / Photoshop to design.
+
 
 # Filestructure 
 ```
