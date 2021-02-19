@@ -9,7 +9,7 @@
 4. Develop with define('wp_debug', true); 
 5. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
 6. Build a hardcoded, fully responsive html templates with html / scss / twig / php first before implementing advanced custom fields and dynamic data functionality.
-7. Use Advanced Custom fields, Gutenberg & Hookturn plugins to build custom content areas and fields 
+7. Use Advanced Custom fields & Gutenberg styled blocks to build custom content areas and fields 
 8. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
@@ -64,21 +64,6 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
    - 1920px
 1. We need to export our design to Zeplin, so please use : Sketch / Adobe XD / Figma / Photoshop to design.
 
-
-# Filestructure 
-```
- theme (custom theme) 
-  | dev  
-    - package.json  
-    |- node_modules (exclude from commits) 
-    |- sass 
-	 |- bourbon 
-	 |- neat  
-	 |- _custom.scss (main stylesheet)
-	 |- _mixins.scss 
-```
-
-Keep all the compressed production ready css and js outside of the dev folder.
 
 #git 
 1. Install git in the custom theme directory
