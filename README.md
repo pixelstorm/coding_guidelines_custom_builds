@@ -3,14 +3,21 @@
 1. Develop using php 7.4
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
 1. Use [ Underscores ](https://underscores.me/) as the starter theme or if using timber https://github.com/timber/starter-theme. or if using webpack https://github.com/carrieforde/_s-with-webpack
-1. Do what you have to do to Remain DRY - unless you feel its adding too much complication for too little gain.
+1. Use https://developer.wordpress.org/reference/functions/get_template_part/ and pass in the $ARGS to Remain DRY.
 1. Use svgs for icons and logos where posible.
-3. Develop locally deploy to a NOFOLLOW staging url.
-4. Develop with define('wp_debug', true); 
+3. Develop locally (i recommend "flywheel local" https://localwp.com/ ) deploy to a NOFOLLOW staging url.
+4. Use Query Monitor as you develop, it will let you know of any errors; 
 5. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
-6. Build a hardcoded, fully responsive html templates with html / scss / twig / php first before implementing advanced custom fields and dynamic data functionality.
-7. Use Advanced Custom fields & Gutenberg styled blocks to build custom content areas and fields 
-8. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
+6. Develop the UI KIT first using existing and new gutenberg blocks and components.
+  - buttons
+  - titles
+  - info cards
+  - lists
+  - slideshows
+  - contact forms
+  - header and footer
+8. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
+9. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
@@ -19,8 +26,8 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 
 ### Css
 1. Use REMS for units and set the responsive scale on the html element.
-2. Use css grid and flexbox
-3. Use a BEM css metholodgy
+2. Use CSS Grid and Flexbox for layout
+3. Use a BEM CSS metholodgy
 4. Dont use id's for css selectors. Only use ids for js
 5. When deploying to production, compress your css files into one minified file
 
