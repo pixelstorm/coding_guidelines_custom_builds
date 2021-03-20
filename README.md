@@ -1,4 +1,6 @@
 # Best Practices and Coding Standards for custom builds
+
+Read this document before starting any new builds. This document will change and evolve overtime. This document requires your contribution. 
  
 1. Develop using php 7.4
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
@@ -42,7 +44,7 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 1. Ensure your local and staging site is set to no-follow
 
 ## Plugins – List of Approved Plugins for production site
-Please discuss if when adding a plugin that is not part of this list.
+Please discuss when adding a plugin that is not part of this list.
  
 And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
  
@@ -52,14 +54,13 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Woocommerce
 1. db-migrate
 1. query-monitor for local sites only
-1. any plugins relating to specific functionaliy of the site that does not cause unwanted loadtime.
-
-
-1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
  
 # Custom Coding
 1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
 1. Provide comments for functions and templates.
+- describe what the function does and why you are using it
+- tell us what files use this function
+- for templates tell us what the template does and why you are using it
 
 ### Design
 1. Usually we design at the 1440px screen width.
