@@ -32,7 +32,7 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 ### Css
 1. Use REMS for units and set the responsive scale on the html element.
 2. Use CSS Grid and Flexbox for layout
-3. Use a BEM CSS metholodgy
+3. Use a BEM CSS metholodgy - we use BEM to keep our html markup simple.
 4. Dont use id's for css selectors. Only use ids for js
 5. When deploying to production, compress your css files into one minified file
 
