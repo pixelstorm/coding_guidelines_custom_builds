@@ -18,11 +18,12 @@ Read this document before starting any new builds. This document will change and
   - slideshows
   - contact forms
   - header and footer
-8. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
-9. Use a styled gutenberg "group" object as a container for custom blocks.
-10. Use https://codepen.io/MadeByMike/pen/vNrvdZ fluid typography - use it on more the just typography
-11. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
-12. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
+8. We build all website page components as self contained gutenberg blocks: ie testimonials block, contact form block, hero banner block, post slidershow block 
+9. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
+10. Use a styled gutenberg "group" object as a container for custom blocks.
+11. Use https://codepen.io/MadeByMike/pen/vNrvdZ fluid typography - use it on more the just typography
+12. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
+13. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
