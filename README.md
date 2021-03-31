@@ -40,6 +40,7 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 7. Avoid using inline css.
 8. Create and use mixins to remain DRY.
 9. Keep code organised by using Sass Maps for brand elements like typography and color. Use camelCasing for your sass map declarations.
+10. Each Gutenberg block css lives in its own self contained file. the scss file is named the same as the block name. This includes existing gutenberg blocks ie: paragraph, heading etc 
 
 
 ### js
@@ -87,14 +88,6 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
 1. Install git in the custom theme directory
 1. Checkout a local feature branch when working on a new feature and merge into master when you are done.
 1. Deploy your master branch through beanstalk
-
-
-# Testing in browser stack (login supplied)
-
-1. Ios iphone6 and up, Ipad all versions 
-1. Android S4 and up, Galaxy 3 and up, Galaxy SS mini 
-1. Internet Explorer 11 and up 
-1. latest versions of Firefox, Chrome and Safari 
 
 ### We adhere to wordpress best practices broadly defined here:
 
