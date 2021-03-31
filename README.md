@@ -20,10 +20,11 @@ Read this document before starting any new builds. This document will change and
   - header and footer
 8. We build all website page components as self contained gutenberg blocks: ie testimonials block, contact form block, hero banner block, post slidershow block 
 9. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
-10. Use a styled gutenberg "group" object as a container for custom blocks.
-11. Use https://codepen.io/MadeByMike/pen/vNrvdZ fluid typography - use it on more the just typography
-12. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
-13. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
+10. Only use gutenberg spacer block to add space between "variable content"
+11. Use a styled gutenberg "group" object as a container for custom blocks.
+12. Use https://codepen.io/MadeByMike/pen/vNrvdZ fluid typography - use it on more the just typography
+13. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
+14. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
@@ -32,18 +33,23 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 
 ### Css
 1. Use REMS for units and set the responsive scale on the html element.
-2. Use CSS Grid and Flexbox for layout
-3. Use a BEM CSS metholodgy - we use BEM to keep our html markup simple.
-4. Dont use id's for css selectors. Only use ids for js
-5. When deploying to production, compress your css files into one minified file
+2. Use of 
+3. Use CSS Grid and Flexbox for layout
+4. Use a BEM CSS metholodgy - we use BEM to keep our html markup simple.
+5. Dont use id's for css selectors. Only use ids for js
+6. When deploying to production, compress your css files into one minified file
+7. Avoid using inline css.
+8. Create and use mixins to remain DRY.
+9. Keep code organised by using Sass Maps for brand elements like typography and color. Use camelCasing for your sass map declarations.
 
 
 ### js
 1. When deploying to production, Compress your js files into one minified file
  
 ### WordPress Setup
-1. Choose a unique relavent username(not admin)
-1. Ensure your local and staging site is set to no-follow
+1. Choose a unique relavent username(not admin) for the main login username
+2. Use stong password, store in lastpass and nowhere else.
+3. Ensure your local and staging site is set to no-follow
 
 ## Plugins – List of Approved Plugins for production site
 Please discuss when adding a plugin that is not part of this list.
@@ -59,10 +65,11 @@ And please, NEVER modify a plugin directly. Use functions.php in the theme or cr
  
 # Custom Coding
 1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
-1. Provide comments for functions and templates.
+2. Provide comments for functions and templates.
 - describe what the function does and why you are using it
 - tell us what files use this function
 - for templates tell us what the template does and why you are using it
+3. Declare varibles at the top of the file where possible
 
 ### Design
 1. Usually we design at the 1440px screen width.
