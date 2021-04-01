@@ -58,6 +58,15 @@ The design needs to look the same reguardless of what size its viewed at.
 
 We have used https://codepen.io/MadeByMike/pen/vNrvdZ for responsive paddings and type.
 
+1. Our points breaks, with mobile first standard:
+   - 480px
+   - 768px
+   - 1024px
+   - 1280px
+   - 1440px
+   - 1600px
+   - 1920px
+
 
 
 ## Recommended file structures 
