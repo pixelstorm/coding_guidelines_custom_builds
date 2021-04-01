@@ -117,6 +117,101 @@ theme /
     ├── js
     ├── libs
     └── sass
+         ├── _normalize.scss
+         ├── _slick-carousel.scss
+         ├── _slick-dots.scss
+         ├── blocks
+         │   ├── _accordion.scss
+         │   ├── _articles.scss
+         │   ├── _blocks.scss
+         │   ├── _box-slider.scss
+         │   ├── _buttons.scss
+         │   ├── _columns.scss
+         │   ├── _contact-form.scss
+         │   ├── _cta-with-form.scss
+         │   ├── _groups.scss
+         │   ├── _headings.scss
+         │   ├── _hero.scss
+         │   ├── _intro.scss
+         │   ├── _latest-posts.scss
+         │   ├── _list.scss
+         │   ├── _location-box.scss
+         │   ├── _location-detail.scss
+         │   ├── _paragraphs.scss
+         │   ├── _people-with-filters.scss
+         │   ├── _quicklinks.scss
+         │   ├── _quote.scss
+         │   ├── _search.scss
+         │   ├── _services.scss
+         │   ├── _team-slider.scss
+         │   ├── _team.scss
+         │   ├── _testimonials-slider.scss
+         │   ├── _text-with-gallery.scss
+         │   ├── _text-with-image.scss
+         │   ├── _youtube.scss
+         │   └── includes
+         │       ├── _featured-post.scss
+         │       ├── _location-filters.scss
+         │       ├── _post-filters.scss
+         │       └── _post-meta.scss
+         ├── elements
+         │   ├── _elements.scss
+         │   ├── _lists.scss
+         │   └── _tables.scss
+         ├── forms
+         │   ├── _buttons.scss
+         │   ├── _fields.scss
+         │   ├── _forms.scss
+         │   ├── _messages.scss
+         │   ├── _post-filters.scss
+         │   └── _select.scss
+         ├── layout
+         │   ├── _content-sidebar.scss
+         │   ├── _no-sidebar.scss
+         │   └── _sidebar-content.scss
+         ├── media
+         │   ├── _captions.scss
+         │   ├── _galleries.scss
+         │   └── _media.scss
+         ├── mixins
+         │   └── _mixins-master.scss
+         ├── modules
+         │   ├── _accessibility.scss
+         │   ├── _alignments.scss
+         │   ├── _clearings.scss
+         │   └── _infinite-scroll.scss
+         ├── navigation
+         │   ├── _breadcrumbs.scss
+         │   ├── _city-selector.scss
+         │   ├── _links.scss
+         │   ├── _main.scss
+         │   ├── _mixins.scss
+         │   ├── _mobile.scss
+         │   ├── _navigation.scss
+         │   ├── _pagination.scss
+         │   ├── _post.scss
+         │   └── _utility.scss
+         ├── site
+         │   ├── _editor.scss
+         │   ├── _site.scss
+         │   ├── primary
+         │   │   ├── _comments.scss
+         │   │   ├── _footer.scss
+         │   │   ├── _header.scss
+         │   │   └── _posts-and-pages.scss
+         │   └── secondary
+         │       └── _widgets.scss
+         ├── style.scss
+         ├── typography
+         │   ├── _copy.scss
+         │   ├── _headings.scss
+         │   └── _typography.scss
+         └── variables-site
+             ├── _colors.scss
+             ├── _columns.scss
+             ├── _structure.scss
+             ├── _typography.scss
+             └── _variables-site.scss
 ├── style-editor.css
 ├── style.css
 ├── template-parts
