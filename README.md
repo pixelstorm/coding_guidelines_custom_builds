@@ -61,6 +61,7 @@ We have used https://codepen.io/MadeByMike/pen/vNrvdZ for responsive paddings an
 
 ## Recommended file structures 
 ### using https://carrieforde.com/webpack-wordpress/ install
+.
 theme /
 ├── 404.php
 ├── LICENSE
@@ -113,7 +114,7 @@ theme /
 └── woocommerce.css
 
 ### Alternative file stucture using grunt
-
+.
 ├── 404.php
 ├── LICENSE
 ├── README.md
