@@ -51,6 +51,114 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 2. Use stong password, store in lastpass and nowhere else.
 3. Ensure your local and staging site is set to no-follow
 
+## Recommended file structures 
+### using https://carrieforde.com/webpack-wordpress/ install
+theme /
+├── 404.php
+├── LICENSE
+├── README.md
+├── acf-json
+├── archive.php
+├── comments.php
+├── footer.php
+├── functions.php
+├── header.php
+├── inc
+    ├── acf.php
+    ├── custom-gutenberg-editor-colors.php
+    ├── custom-header.php
+    ├── customizer.php
+    ├── filter-posts.php
+    ├── filter-team.php
+    ├── gravity-forms.php
+    ├── shortcode.php
+    ├── template-functions.php
+    ├── template-tags.php
+    └── wpcom.php
+├── index.php
+├── languages
+├── layouts
+├── node_modules
+├── package-lock.json
+├── package.json
+├── page.php
+├── phpcs.xml.dist
+├── public
+├── readme.txt
+├── report.20210225.150147.10790.001.json
+├── rtl.css
+├── screenshot.png
+├── search.php
+├── sidebar.php
+├── single-team.php
+├── single.php
+├── src
+    ├── images
+    ├── index.js
+    ├── js
+    ├── libs
+    └── sass
+├── style-editor.css
+├── style.css
+├── template-parts
+├── webpack.config.js
+└── woocommerce.css
+
+### Alternative file stucture using grunt
+
+├── 404.php
+├── LICENSE
+├── README.md
+├── acf-json
+├── archive-project.php
+├── archive.php
+├── comments.php
+├── composer.json
+├── composer.lock
+├── css
+   ├── fancybox
+   └── select2
+├── dev
+    ├── Gruntfile.js
+    ├── js
+    ├── node_modules
+    ├── package-lock.json
+    ├── package.json
+    └── sass
+├── fonts
+├── footer.php
+├── front-page.php
+├── functions.php
+├── header.php
+├── home.php
+├── images
+├── inc
+    ├── acf.php
+    ├── custom-header.php
+    ├── customizer.php
+    ├── jetpack.php
+    ├── template-functions.php
+    ├── template-tags.php
+    └── woocommerce.php
+├── index.php
+├── js
+├── languages
+├── package.json
+├── page.php
+├── phpcs.xml.dist
+├── readme.txt
+├── screenshot.png
+├── search.php
+├── sidebar.php
+├── single-product.php
+├── single-project.php
+├── single.php
+├── style-rtl.css
+├── style.css
+├── template-parts
+├── vendor
+└── woocommerce
+
 ## Plugins – List of Approved Plugins for production site
 Please discuss when adding a plugin that is not part of this list.
  
