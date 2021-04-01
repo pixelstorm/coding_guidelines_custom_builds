@@ -61,7 +61,7 @@ We have used https://codepen.io/MadeByMike/pen/vNrvdZ for responsive paddings an
 
 ## Recommended file structures 
 ### using https://carrieforde.com/webpack-wordpress/ install
-.
+```
 theme /
 ├── 404.php
 ├── LICENSE
@@ -112,9 +112,9 @@ theme /
 ├── template-parts
 ├── webpack.config.js
 └── woocommerce.css
-
+```
 ### Alternative file stucture using grunt
-.
+```
 ├── 404.php
 ├── LICENSE
 ├── README.md
@@ -167,7 +167,7 @@ theme /
 ├── template-parts
 ├── vendor
 └── woocommerce
-
+```
 ## Plugins – List of Approved Plugins for production site
 Please discuss when adding a plugin that is not part of this list.
  
