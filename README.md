@@ -121,7 +121,29 @@ theme /
 ├── style.css
 ├── template-parts
     ├── block
-    ├── content-location-filters.php
+    ├── content-accordion.php
+        ├── content-articles.php
+        ├── content-box-slider.php
+        ├── content-contact-form.php
+        ├── content-cta-with-form.php
+        ├── content-featured-post.php
+        ├── content-hero.php
+        ├── content-intro.php
+        ├── content-latest-post-filters.php
+        ├── content-latest-posts.php
+        ├── content-location-box.php
+        ├── content-location-detail.php
+        ├── content-people-with-filter.php
+        ├── content-quicklinks.php
+        ├── content-services.php
+        ├── content-team-details.php
+        ├── content-team-slider-industry.php
+        ├── content-team-slider.php
+        ├── content-teamcard.php
+        ├── content-testimonial.php
+        ├── content-text-with-gallery.php
+        └── content-text-with-image.php
+        ├── content-location-filters.php
     ├── content-news.php
     ├── content-none.php
     ├── content-page-header.php
