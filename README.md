@@ -51,6 +51,14 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 2. Use stong password, store in lastpass and nowhere else.
 3. Ensure your local and staging site is set to no-follow
 
+## Responsiveness
+This is the most critcal part of the developement. The problem can be that the design is often delivered to you at 1440px, but its viewed at 1920.
+The design needs to look the same reguardless of what size its viewed at.
+
+We have used https://codepen.io/MadeByMike/pen/vNrvdZ for responsive paddings and type.
+
+
+
 ## Recommended file structures 
 ### using https://carrieforde.com/webpack-wordpress/ install
 theme /
