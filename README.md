@@ -120,6 +120,21 @@ theme /
 ├── style-editor.css
 ├── style.css
 ├── template-parts
+    ├── block
+    ├── content-location-filters.php
+    ├── content-news.php
+    ├── content-none.php
+    ├── content-page-header.php
+    ├── content-page.php
+    ├── content-post.php
+    ├── content-postcard.php
+    ├── content-postmeta.php
+    ├── content-posts-mobile.php
+    ├── content-search.php
+    ├── content-slick-buttons.php
+    ├── content-teamarea-termlist.php
+    ├── content.php
+    └── includes
 ├── webpack.config.js
 └── woocommerce.css
 ```
