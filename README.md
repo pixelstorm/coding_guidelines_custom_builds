@@ -41,6 +41,7 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 8. Create and use mixins to remain DRY.
 9. Keep code organised by using Sass Maps for brand elements like typography and color. Use camelCasing for your sass map declarations.
 10. Each Gutenberg block css lives in its own self contained file. the scss file is named the same as the block name. This includes existing gutenberg blocks ie: paragraph, heading etc 
+11. Dont use !important if its not 100% nessary. When using BEM your css is modulized and therefore no need to use !important
 
 
 ### js
