@@ -16,11 +16,13 @@ Read this document before starting any new builds. This document will change and
 ### Gutenberg Builds
 1. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
 2. Use a styled gutenberg "group" object as a container for custom blocks.
-3. Build all website page components as self contained gutenberg blocks: ie testimonials block, contact form block, hero banner block, post slidershow block 
-4. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
-5. Use this plugin to convert reusable blocks to reusable block patterns, https://wordpress.org/plugins/reusable-blocks-extended/ this will help speed up builds
-6. Only use gutenberg spacer block to add space between "variable content"
-7. Develop the websites UI KIT using existing and new gutenberg blocks and components for:
+3. Develop blocks locally then export/import json file to staging site
+4. Manually Store block json file in "blocks-json" to keep block under version control
+5. Build all website page components as self contained gutenberg blocks: ie testimonials block, contact form block, hero banner block, post slidershow block 
+6. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
+7. Use this plugin to convert reusable blocks to reusable block patterns, https://wordpress.org/plugins/reusable-blocks-extended/ this will help speed up builds
+8. Only use gutenberg spacer block to add space between "variable content"
+9. Develop the websites UI KIT using existing and new gutenberg blocks and components for:
   - buttons
   - titles
   - info cards
