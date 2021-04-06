@@ -21,7 +21,7 @@ Read this document before starting any new builds. This document will change and
 5. Build all website page components as self contained gutenberg blocks: ie testimonials block, contact form block, hero banner block, post slidershow block 
 6. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
 7. remove the default gutenberg colors and add a custom color pallette of brand colors https://www.billerickson.net/code/color-palette-setup-in-gutenberg/
-8. Use this plugin to convert reusable blocks to reusable block patterns, https://wordpress.org/plugins/reusable-blocks-extended/ this will help speed up builds
+8. Use this plugin to import/export json blocks and if needed convert reusable blocks to reusable block patterns, https://wordpress.org/plugins/reusable-blocks-extended/ this will help speed up builds
 9. Only use gutenberg spacer block to add space between "variable content"
 10. Develop the websites UI KIT using existing and new gutenberg blocks and components for:
   - buttons
