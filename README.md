@@ -13,6 +13,11 @@ Read this document before starting any new builds. This document will change and
 1. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images.
 1. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images Please keep this inmind when choosing slideshow plugins https://www.metaslider.com/image-slide-demo/. the slideshows are to also utilise srcset
 
+### Working in a team
+1. When you are starting a block, Add a screenshot of the block you are working on to the slack channel. @the developers on your team to let them know.
+2. When you have completed a block, add the screenshot of the block to the slack channel @the developers on your team to let them know the block is done.
+3. When you have completed a block, add a "this is done" comment on the block in Figma. Add any development notes in the comments.
+
 ### Gutenberg Builds
 1. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
 2. Use a styled gutenberg "group" object as a container for custom blocks.
