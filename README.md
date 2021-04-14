@@ -45,7 +45,7 @@ https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
 
-### sCss
+### SCSS & CSS
 1. Use REMS for units and set the responsive scale on the html element.
 3. Use CSS Grid and Flexbox for layout
 4. Use a BEM CSS metholodgy - we use BEM to keep our html markup simple.
