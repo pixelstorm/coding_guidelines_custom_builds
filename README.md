@@ -47,6 +47,7 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 
 ### SCSS & CSS
 1. Use REMS for units and set the responsive scale on the html element.
+2. Dont use extend - it makes a mess in the css
 3. Use CSS Grid and Flexbox for layout
 4. Use a BEM CSS metholodgy - we use BEM to keep our html markup simple.
 5. Dont use id's for css selectors. Only use ids for js
