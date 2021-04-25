@@ -11,7 +11,7 @@ Read this document before starting any new builds. This document will change and
 4. Use Query Monitor as you develop, it will let you know of any errors; 
 5. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
 6. When we create 'post cards' ensure the whole card is clickable not just the "read more" link.
-7. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images.
+7. Create [ custom image sizes ](https://developer.wordpress.org/reference/functions/add_image_size/) for all components that use images. Do not load small photos into the media library. Always load large imagery into the media library and code the component to use a custom image size.
 8. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images Please keep this inmind when choosing slideshow plugins https://www.metaslider.com/image-slide-demo/. the slideshows are to also utilise srcset
 
 ### Working in a team
