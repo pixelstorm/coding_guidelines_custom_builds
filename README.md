@@ -65,6 +65,7 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 
 ### js
 1. When deploying to production, Compress your js files into one minified file
+2. Dont use javascript to match height of boxes use flexbox for this
  
 ### WordPress Setup
 1. Choose a unique relavent username(not admin) for the main login username
