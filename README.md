@@ -47,6 +47,7 @@ Read this document before starting any new builds. This document will change and
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
+2. Always check a field value exists before trying to display the value. php error will occur if the value does not exist. https://www.advancedcustomfields.com/resources/get_field/
 
 ### SCSS & CSS
 1. Use REMS for units and set the responsive scale on the html element.
