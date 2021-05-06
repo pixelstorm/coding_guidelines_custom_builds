@@ -36,6 +36,8 @@ Read this document before starting any new builds. This document will change and
 11. Develop the websites UI KIT using existing and new gutenberg blocks and components for:
   - buttons
   - titles
+  - Media and text
+  - image gallery
   - info cards
   - lists
   - slideshows
