@@ -18,12 +18,12 @@ Read this document before starting any new builds. This document will change and
 9. use a srcset to output responsive images on the frontend for all responsive break points. see design seciton. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images Please keep this inmind when choosing slideshow plugins https://www.metaslider.com/image-slide-demo/. the slideshows are to also utilise srcset
 10. Constuct wordpress menus using pages. not custom links. Create the page if it does not exist.
 
-### Working in a team
+### If Working in a team
 1. When you are starting a block, Add a screenshot of the block you are working on to the slack channel. @the developers on your team to let them know.
 2. When you have completed a block, add the screenshot of the block to the slack channel @the developers on your team to let them know the block is done.
 3. When you have completed a block, add a "this is done" comment on the block in Figma. Add any development notes in the comments.
 
-### Gutenberg Builds
+### If website project is a Gutenberg Build
 1. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
 2. Use a styled gutenberg "group" object as a container for custom blocks.
 3. Develop blocks locally then export/import json file to staging site
@@ -45,7 +45,7 @@ Read this document before starting any new builds. This document will change and
   - contact forms
   - header and footer
 
-### ACF
+### if website project is using a ACF page builder
 14. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
