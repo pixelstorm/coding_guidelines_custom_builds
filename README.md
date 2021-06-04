@@ -8,7 +8,7 @@ Read this document before starting any new builds. This document will change and
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
 1. Use [ Underscores ](https://underscores.me/) as the starter theme or if using timber https://github.com/timber/starter-theme. or if using webpack https://github.com/carrieforde/_s-with-webpack
 1. Use https://developer.wordpress.org/reference/functions/get_template_part/ and pass in the $ARGS to Remain DRY.
-1. Use svg for icons, images and logos where posible.
+1. Use svg for icons, images and logos where posible. We do not use fontawesome as its too bloated.
 3. Develop locally (i recommend "flywheel local" https://localwp.com/ ) deploy to a NOFOLLOW staging url.
 4. Use Query Monitor as you develop, it will let you know of any errors; 
 5. All text to be wrapped in either p, li or h1 to h3 tag. dont use divs to wrap text. use div for layout.
