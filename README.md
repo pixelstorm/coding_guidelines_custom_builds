@@ -70,9 +70,12 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 ### js
 1. When deploying to production, Compress your js files into one minified file
 2. Dont use javascript to match height of boxes use flexbox for this
+
+### slideshows
+1. Use slick slicker https://kenwheeler.github.io/slick/ we use this as the team is familiar with it.
  
 ### WordPress Setup
-1. Choose a unique relavent username(not admin) for the main login username
+1. Choose a unique relavent username(not admin) for the main login username, ensure it is stong.
 2. Use stong password, store in lastpass and nowhere else.
 3. Ensure your local and staging site is set to no-follow
 
