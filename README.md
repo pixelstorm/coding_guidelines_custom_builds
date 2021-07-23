@@ -22,19 +22,6 @@ Read this document before starting any new builds. This document will change and
 Please read carefully and ask question for clarification. [Frontend Dev Guidelines](https://github.com/pixelstorm/Frontend-Development-Guidelines/)
 
 
-### Design
-1. Usually we design at the 1440px screen width.
-1. Our points breaks, with mobile first standard:
-   - 480px
-   - 768px
-   - 1024px
-   - 1280px
-   - 1440px
-   - 1600px
-   - 1920px
-1. We need to export our design to Zeplin, so please use : Sketch / Adobe XD / Figma / Photoshop to design.
-
-
 #git 
 1. Install git in the custom theme directory
 1. Checkout a local feature branch when working on a new feature and merge into master when you are done.
