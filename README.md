@@ -13,12 +13,13 @@ Read this document before starting any new builds. This document will change and
 2. When you have completed a block, add the screenshot of the block to the slack channel @the developers on your team to let them know the block is done.
 3. When you have completed a block, add a "this is done" comment on the block in Figma. Add any development notes in the comments.
 
-## If custom theme website project is a [ Gutenberg Build ](https://github.com/pixelstorm/Custom-theme-with-gutenberg)
+# Gutenberg Blocks Page Builder Guidelines:
+If custom theme website project is a [ Gutenberg Build ](https://github.com/pixelstorm/Custom-theme-with-gutenberg)
 
+# ACF Page Builder Guidelines (flexible blocks):
+If website project is using a [ ACF page builder ](https://github.com/pixelstorm/Custom-theme-with-ACF-Page-Builder/)
 
-## if website project is using a [ ACF page builder ](https://github.com/pixelstorm/Custom-theme-with-ACF-Page-Builder/)
-
-# Frontend Dev Guidelines
+# Frontend Dev Guidelines:
 Please read carefully and ask question for clarification. [Frontend Dev Guidelines](https://github.com/pixelstorm/Frontend-Development-Guidelines/)
 
 
