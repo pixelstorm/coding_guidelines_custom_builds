@@ -41,10 +41,6 @@ Read this document before starting any new builds. This document will change and
 ### slideshows
 1. Use slick slicker https://kenwheeler.github.io/slick/ we use this as the team is familiar with it.
  
-### WordPress Setup
-1. Choose a unique relavent username(not admin) for the main login username, ensure it is stong.
-2. Use stong password, store in lastpass and nowhere else.
-3. Ensure your local and staging site is set to no-follow
 
 ## Responsiveness
 This is the most critcal part of the developement. The problem can be that the design is often delivered to you at 1440px, but its viewed at 1920.
