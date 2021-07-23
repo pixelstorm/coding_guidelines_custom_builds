@@ -2,10 +2,10 @@
 
 Read this document before starting any new builds. This document will change and evolve overtime. This document requires your contribution. 
 
-#Wordpress Development Overview
-https://github.com/pixelstorm/WordPress-Development-Guidelines/
+# Wordpress Development Overview
+1. https://github.com/pixelstorm/WordPress-Development-Guidelines/
 
-#GIT
+# GIT
 1. Use our [ git flow proceedure ](https://github.com/pixelstorm/git-flow)
 
 ### If Working in a team
