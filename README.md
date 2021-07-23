@@ -13,34 +13,10 @@ Read this document before starting any new builds. This document will change and
 2. When you have completed a block, add the screenshot of the block to the slack channel @the developers on your team to let them know the block is done.
 3. When you have completed a block, add a "this is done" comment on the block in Figma. Add any development notes in the comments.
 
-### If website project is a Gutenberg Build
-1. Use Gutenberg styled blocks and if needed Advanced Custom fields to build custom content areas and fields 
-2. Use a styled gutenberg "group" object as a container for custom blocks.
-3. Develop blocks locally then export/import json file to staging site
-4. Save reusable blocks as either block-name-partial (a reusable part of a block) or block-name-panel (completed panel - usually consists of multiple blocks)
-5. Manually Store block json file in "blocks-json" to keep block under version control
-6. Build all website page components as self contained gutenberg blocks: ie testimonials block, contact form block, hero banner block, post slidershow block 
-7. Save your blocks as resusable blocks when they are complete. (We train the clients to use the reusable blocks)
-8. remove the default gutenberg colors and add a custom color pallette of brand colors https://www.billerickson.net/code/color-palette-setup-in-gutenberg/
-9. Use this plugin to import/export json blocks and if needed convert reusable blocks to reusable block patterns, https://wordpress.org/plugins/reusable-blocks-extended/ this will help speed up builds
-10. Only use gutenberg spacer block to add space between "variable content"
-11. Develop the websites UI KIT using existing and new gutenberg blocks and components for:
-  - buttons
-  - titles
-  - Media and text
-  - image gallery
-  - info cards
-  - lists
-  - slideshows
-  - contact forms
-  - header and footer
+### If custom theme website project is a [ Gutenberg Build ](https://github.com/pixelstorm/Custom-theme-with-gutenberg)
+
 
 ### if website project is using a ACF page builder
-14. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
-https://www.advancedcustomfields.com/resources/local-json/
-https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
-1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
-2. Always check a field value exists before trying to display the value. php error will occur if the value does not exist. https://www.advancedcustomfields.com/resources/get_field/
 
 ### SCSS & CSS
 1. Use REMS for units and set the responsive scale on the html element.
@@ -330,25 +306,8 @@ theme /
 ├── vendor
 └── woocommerce
 ```
-## Plugins – List of Approved Plugins for production site
-Please discuss when adding a plugin that is not part of this list.
+
  
-And please, NEVER modify a plugin directly. Use functions.php in the theme or create a custom plugin.
- 
-1. Advanced Custom Fields Pro (we have a premium license)
-1. Gravity Forms (we have a premium license)
-1. Yoast
-1. Woocommerce
-1. db-migrate
-1. query-monitor for local sites only
- 
-# Custom Coding
-1. Prefix all functions with pxs_ and tables with a unique white_label prefix.
-2. Provide comments for functions and templates.
-- describe what the function does and why you are using it
-- tell us what files use this function
-- for templates tell us what the template does and why you are using it
-3. Declare varibles at the top of the file where possible
 
 ### Design
 1. Usually we design at the 1440px screen width.
