@@ -3,7 +3,7 @@
 Read this document before starting any new builds. This document will change and evolve overtime. This document requires your contribution. 
 
 ## General Wordpress Development
-1. Please read carefully and ask question for clarification. [ wp dev guidelines ](https://github.com/pixelstorm/WordPress-Development-Guidelines/)
+Please read carefully and ask question for clarification. [ wp dev guidelines ](https://github.com/pixelstorm/WordPress-Development-Guidelines/)
 
 ## ACF Page Builder Guidelines (flexible blocks):
 If website project is using a [ ACF page builder ](https://github.com/pixelstorm/Custom-theme-with-ACF-Page-Builder/)
